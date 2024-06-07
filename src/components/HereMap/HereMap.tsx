@@ -3,6 +3,7 @@
 import React, { createContext, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { themable, ThemedComponentProps } from "../../hooks/theme";
 import cssClasses from "./HereMap.module.scss";
+import "./HereMap.custom.css";
 import Color from "color";
 
 type OnFeatureSelect = (featureId: number) => unknown;
