@@ -207,7 +207,7 @@ export type ElectionObservation = {
 
 export type ElectionResultsCandidate = {
   // These still refer to parties in the context of local_council and county_council
-  name: string; // eg. "Uniunea Salvați România" or candidate name eg. "Sososaca"
+  name: string; // eg. "Uniunea Salvați România" or candidate name
   shortName?: string | null; // eg. "USR"
   partyColor?: string | null;
   partyLogo?: string | null; // A URL to a party logo image (square, with transparency, preferably SVG)
