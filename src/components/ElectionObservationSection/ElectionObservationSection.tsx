@@ -54,7 +54,7 @@ export const ElectionObservationSection = themable<Props>(
       <Heading2>Observarea independentă a alegerilor</Heading2>
       <DivBodyLarge>
         Aceste date sunt colectate prin aplicația{" "}
-        <a href="https://code4.ro/ro/monitorizare-vot" target="_blank" rel="noreferrer">
+        <a href="https://www.code4.ro/ro/raport-alegeri-monitorizare-vot" target="_blank" rel="noreferrer">
           Monitorizare Vot
         </a>
         , dezvoltată de{" "}
