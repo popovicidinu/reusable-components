@@ -161,7 +161,7 @@ export const ElectionNewsCard = themable<Props>(
           <div className={classes.separator} />
           {footerRight}
           <a href="https://code4.ro" target="_blank" rel="noopener noreferrer">
-            <SVGCode4Romania height="25" className={classes.logo} />
+            <SVGCode4Romania className={classes.logo} />
           </a>
         </div>
       </div>
