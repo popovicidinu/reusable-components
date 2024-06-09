@@ -42,6 +42,7 @@ export const ElectionObservationSection = themable<Props>(
     },
     {
       color: theme.colors.secondary,
+      labelColor: "#FFFFFF",
       legendName: "Probleme sesizate",
       value: observation.issueCount,
       valueLabel: formatGroupedNumber(observation.issueCount),
@@ -66,7 +67,7 @@ export const ElectionObservationSection = themable<Props>(
         <ShowcaseItem classes={classes} icon={<BallotDrop />} value={observation.coveredPollingPlaces}>
           Secții de votare acoperite
         </ShowcaseItem>
-        <ShowcaseItem classes={classes} icon={<RomaniaCountyMap />} value={observation.coveredCounties}>
+        <ShowcaseItem classes={classes} icon={<RomaniaCountyMap />} value={41}>
           Județe acoperite
         </ShowcaseItem>
         <ShowcaseItem classes={classes} icon={<RaisedHands />} value={observation.observerCount}>
