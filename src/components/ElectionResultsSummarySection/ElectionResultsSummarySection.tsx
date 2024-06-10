@@ -51,8 +51,7 @@ export const ElectionResultsSummarySection = themable<Props>(
   const liveText =
     meta?.stage === "final"
       ? "Rezultatele finale in urma numararii tuturor voturilor sunt"
-      : `Numaratoare partiale: rezultatele in urma numararii a ${livePercentage} din voturile
-  totale sunt urmatoarele`;
+      : `Numaratoare partiale`;
 
   const percentage = formatPercentage(
     fractionOf(
